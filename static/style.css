@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;  /* Imposta il font del corpo */
+    margin: 20px;  /* Margine intorno al corpo */
+    background-color: #f4f4f4;  /* Colore di sfondo */
+}
+
+h1 {
+    color: #333;  /* Colore del testo dell'intestazione */
+}
+
+form {
+    background: #fff;  /* Colore di sfondo del modulo */
+    padding: 20px;  /* Spaziatura interna del modulo */
+    border-radius: 5px;  /* Angoli arrotondati del modulo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Ombra per il modulo */
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;  /* Larghezza del campo di input */
+    padding: 10px;  /* Spaziatura interna del campo di input */
+    margin: 10px 0;  /* Margine sopra e sotto il campo di input */
+    border: 1px solid #ccc;  /* Bordo del campo di input */
+    border-radius: 4px;  /* Angoli arrotondati del campo di input */
+}
+
+input[type="submit"] {
+    background-color: #5cb85c;  /* Colore di sfondo del pulsante */
+    color: white;  /* Colore del testo del pulsante */
+    border: none;  /* Nessun bordo per il pulsante */
+    padding: 10px 15px;  /* Spaziatura interna del pulsante */
+    border-radius: 4px;  /* Angoli arrotondati del pulsante */
+    cursor: pointer;  /* Cambia il cursore quando passa sopra il pulsante */
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;  /* Colore di sfondo del pulsante al passaggio del mouse */
+}

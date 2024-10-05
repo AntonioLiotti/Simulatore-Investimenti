@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulatore di Investimenti</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Simulatore di Investimenti</h1>
+    <form action="/simulate" method="post">
+        <label for="ticker">Ticker dell'Azione:</label>
+        <input type="text" name="ticker" required><br>
+        
+        <label for="amount">Importo Iniziale:</label>
+        <input type="number" name="amount" required><br>
+        
+        <label for="years">Numero di Anni:</label>
+        <input type="number" name="years" required><br>
+        
+        <input type="submit" value="Simula">
+    </form>
+</body>
+</html>

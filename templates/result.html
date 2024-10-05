@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Risultati della Simulazione</title>
+</head>
+<body>
+    <h1>Risultati per {{ ticker }}</h1>
+    <p>Valore finale dell'investimento: €{{ final_value }}</p>
+    <img src="{{ url_for('static', filename='plot.png') }}" alt="Grafico">
+</body>
+</html>
